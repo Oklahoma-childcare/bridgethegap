@@ -1,0 +1,5 @@
+- Replace `logo.png` with an approved authentic logo (same filename) to update header/footer automatically.
+- Replace `favicon.png` with a matching small icon for the browser tab.
+- Replace `og-card.png` for social-sharing previews.
+- The included `logo.png` is an ORIGINAL TEMPORARY concept, not the program's official logo.
+- The fallback SVG `stem-illustration.svg` is displayed if external stock photographs cannot load.

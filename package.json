@@ -1,0 +1,31 @@
+{
+  "name": "bridge-the-gap-stem-hugo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "tsx scripts/generate-pages.tsx",
+    "dev": "vite --host 0.0.0.0",
+    "generate": "tsx scripts/generate-pages.tsx",
+    "prebuild": "tsx scripts/generate-pages.tsx",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.3",
+    "vite": "^6.3.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
