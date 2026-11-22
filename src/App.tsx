@@ -118,7 +118,7 @@ function Home() {
       <p className="practice-note">These are ideas behind STEM learning, not a fixed activity schedule. Contact the program for current projects.</p>
     </div></section>
     <section className="sat-feature"><div className="wide sat-feature-grid"><div className="sat-panel"><SmallLabel light>ON THE CALENDAR</SmallLabel><p className="sat-days">SAT<br/>UR<br/>DAY<span>!</span></p><div className="sat-foot"><span>09:00 AM — 02:00 PM</span><CalendarDays size={39}/></div></div><div className="sat-side"><SmallLabel>COME CURIOUS</SmallLabel><h2>THE WEEKEND<br/>HAS <i>NEW IDEAS.</i></h2><p>Saturday is the program's scheduled day, with hours of 9 AM to 2 PM. Before visiting, ask about openings and current activities for your child's age group.</p><Action to="/saturdays/">PLAN YOUR SATURDAY</Action><span className="sat-side-digit">06 / WEEKEND NOTES</span></div></div></section>
-    <section className="stats-strip"><div className="wide stats-grid"><div><strong>30</strong><span>LICENSED CAPACITY</span></div><div><strong>2–4</strong><span>PRESCHOOL AGES</span></div><div><strong>5+</strong><span>SCHOOL-AGE CHILDREN</span></div><div><strong>HUGO</strong><span>OKLAHOMA / HOME BASE</span></div></div></section>
+    <section className="stats-strip"><div className="wide stats-grid"><div><strong>STEM</strong><span> SATURDAY LEARNING</span></div><div><strong>2–4</strong><span>PRESCHOOL AGES</span></div><div><strong>5+</strong><span>SCHOOL-AGE CHILDREN</span></div><div><strong>HUGO</strong><span>OKLAHOMA / HOME BASE</span></div></div></section>
     <BigCallout />
   </>;
 }
