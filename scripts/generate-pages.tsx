@@ -44,7 +44,7 @@ function pageDocument(route: Route) {
 <html lang="en"><head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#17232c" />
+  <meta name="theme-color" content="#123f3c" />
   <meta name="robots" content="${indexable ? 'index,follow,max-image-preview:large' : 'noindex,nofollow'}" />
   <title>${safe(title)}</title>
   <meta name="description" content="${safe(description)}" />
